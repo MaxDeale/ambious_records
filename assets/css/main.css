@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins";
   text-align: center;
@@ -18,7 +22,6 @@ a {
 }
 
 #header {
-  height: 90vh;
   color: #eeeeee;
 }
 
@@ -34,8 +37,17 @@ a {
   margin-bottom: 5rem;
 }
 
+#header #logo-2 {
+  width: 600px;
+}
+
 #header #main-nav {
-  background-color: black;
+  background-image: url("/assets/img/vanbak.png");
+  background-attachment: fixed;
+}
+
+#header #main-nav img {
+  width: 50px;
 }
 
 #header #main-nav ul {
@@ -95,6 +107,33 @@ a {
   color: black;
   width: 70%;
   margin: 3rem auto;
+}
+
+#releases {
+  background-color: #eeeeee;
+  padding: 2rem 0;
+}
+
+#releases h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  border-bottom: 1px solid #393e46;
+  width: 500px;
+  margin: 6rem auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+}
+
+#releases .releases-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+#releases .releases-container .release-item .release-pic {
+  width: 300px;
 }
 
 #main-footer {
@@ -160,6 +199,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #main-footer .final-links ul li {
@@ -179,9 +220,13 @@ a {
   padding: 1rem;
 }
 
+#main-footer .final-footer p {
+  padding: 2rem;
+}
+
 #main-footer .final-footer {
   background-color: #f7f7f7;
-  height: 300px;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
