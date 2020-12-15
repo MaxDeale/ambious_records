@@ -155,4 +155,55 @@ a {
           box-shadow: 5px 5px 4px;
   font-size: 1.2rem;
 }
+
+#main-footer .final-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main-footer .final-links ul li {
+  margin: 2rem;
+  list-style: none;
+}
+
+#main-footer .final-links ul li a {
+  color: #393e46;
+  -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+#main-footer .final-links ul li a:hover {
+  color: #eeeeee;
+  background-color: #393e46;
+  padding: 1rem;
+}
+
+#main-footer .final-footer {
+  background-color: #f7f7f7;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #393e46;
+}
+
+#main-footer .final-footer img {
+  width: 150px;
+}
+
+#main-footer .final-footer #deale-logo {
+  width: 50px;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */

@@ -133,4 +133,41 @@ a {
       }
     }
   }
+
+  .final-links ul {
+    display: flex;
+    li {
+      margin: 2rem;
+      list-style: none;
+    }
+  }
+
+  .final-links ul li a {
+    color: $dark-one;
+    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  .final-links ul li a:hover {
+    color: $light-one;
+    background-color: $dark-one;
+    padding: 1rem;
+  }
+
+  .final-footer {
+    background-color: $lightest;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: $dark-one;
+    img {
+      width: 150px;
+    }
+
+    #deale-logo {
+      width: 50px;
+      border-radius: 50%;
+    }
+  }
 }
