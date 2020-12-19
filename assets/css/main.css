@@ -111,7 +111,7 @@ a {
 
 #releases {
   background-color: #eeeeee;
-  padding: 2rem 0;
+  margin-top: 2rem;
 }
 
 #releases h2 {
@@ -119,7 +119,9 @@ a {
   font-weight: lighter;
   border-bottom: 1px solid #393e46;
   width: 500px;
-  margin: 6rem auto;
+  margin: 1rem auto;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: block;
@@ -132,8 +134,31 @@ a {
       grid-template-columns: repeat(4, 1fr);
 }
 
+#releases .releases-container .release-item {
+  margin: 1rem auto;
+}
+
 #releases .releases-container .release-item .release-pic {
   width: 300px;
+}
+
+#artists {
+  background-color: black;
+  height: 500px;
+  color: #eeeeee;
+}
+
+#artists h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  border-bottom: 1px solid #eeeeee;
+  width: 300px;
+  padding: 2rem auto;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
 }
 
 #main-footer {

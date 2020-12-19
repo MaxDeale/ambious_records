@@ -101,13 +101,15 @@ a {
 
 #releases {
   background-color: $light-one;
-  padding: 2rem 0;
+  margin-top: 2rem;
   h2 {
     font-size: 3rem;
     font-weight: lighter;
     border-bottom: 1px solid $dark-one;
     width: 500px;
-    margin: 6rem auto;
+    margin: 1rem auto;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: block;
@@ -117,10 +119,32 @@ a {
     grid-template-columns: repeat(4, 1fr);
 
     .release-item {
+      margin: 1rem auto;
       .release-pic {
         width: 300px;
       }
     }
+  }
+}
+
+//ARTISTS
+
+#artists {
+  background-color: black;
+  height: 500px;
+  color: $light-one;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: lighter;
+    border-bottom: 1px solid $light-one;
+    width: 300px;
+    padding: 2rem auto;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
   }
 }
 
