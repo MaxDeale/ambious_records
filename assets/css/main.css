@@ -176,6 +176,29 @@ a {
   margin: 1rem auto;
 }
 
+@media (max-width: 600px) {
+  #sub-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sub-form .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sub-button {
+    padding: 1rem;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
 #releases {
   background-color: #eeeeee;
   margin-top: 2rem;

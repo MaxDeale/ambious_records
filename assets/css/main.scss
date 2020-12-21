@@ -153,6 +153,22 @@ a {
   }
 }
 
+//subscribe box queries
+@media (max-width: 600px) {
+  #sub-form {
+    flex-direction: column;
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  #sub-button {
+    padding: 1rem;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
 //RELEASES
 
 #releases {
@@ -173,7 +189,6 @@ a {
   .releases-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-
     .release-item {
       margin: 1rem auto;
       .release-pic {
