@@ -274,6 +274,14 @@ a {
 #artists .artists-container .artist-item img {
   width: 100%;
   height: auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#artists .artists-container .artist-item img:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
 }
 
 #main-footer {
