@@ -18,7 +18,7 @@ html {
 body {
   font-family: "Poppins";
   text-align: center;
-  background-color: $lightest;
+  background-color: white;
 }
 a {
   text-decoration: none;
@@ -218,7 +218,7 @@ a {
   }
   .artists-container {
     padding-bottom: 20%;
-    margin: 3rem auto;
+    margin: 0 auto;
     width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -238,6 +238,50 @@ a {
       img:hover {
         opacity: 0.8;
         transform: scale(0.99);
+      }
+    }
+  }
+}
+
+//DEMO SUBMISSION
+
+#demo-submission {
+  h2 {
+    font-size: 3.4rem;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+    width: 700px;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+  }
+  background-color: $light-one;
+  padding: 2rem 0;
+  .demo-container {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    #demo-form {
+      input {
+        padding: 1rem 0;
+        margin: 10px 0;
+        width: 100%;
+      }
+      #demo-button {
+        width: 100%;
+        padding: 1rem 0;
+        margin: 10px 0;
+        font-size: 1rem;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: $dark-one;
+          color: $lightest;
+          border: 2px solid $lightest;
+          cursor: pointer;
+        }
       }
     }
   }
@@ -273,7 +317,7 @@ a {
   }
 
   .final-footer {
-    background-color: $lightest;
+    background-color: white;
     height: 450px;
     display: flex;
     flex-direction: column;

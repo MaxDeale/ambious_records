@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Poppins";
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 a {
@@ -252,7 +252,7 @@ a {
 
 #artists .artists-container {
   padding-bottom: 20%;
-  margin: 3rem auto;
+  margin: 0 auto;
   width: 70%;
   display: -ms-grid;
   display: grid;
@@ -282,6 +282,57 @@ a {
   opacity: 0.8;
   -webkit-transform: scale(0.99);
           transform: scale(0.99);
+}
+
+#demo-submission {
+  background-color: #eeeeee;
+  padding: 2rem 0;
+}
+
+#demo-submission h2 {
+  font-size: 3.4rem;
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+  width: 700px;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+}
+
+#demo-submission .demo-container {
+  width: 30%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 1.5rem;
+}
+
+#demo-submission .demo-container #demo-form input {
+  padding: 1rem 0;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#demo-submission .demo-container #demo-form #demo-button {
+  width: 100%;
+  padding: 1rem 0;
+  margin: 10px 0;
+  font-size: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#demo-submission .demo-container #demo-form #demo-button:hover {
+  background-color: #393e46;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  cursor: pointer;
 }
 
 #main-footer {
@@ -319,7 +370,7 @@ a {
 }
 
 #main-footer .final-footer {
-  background-color: #f7f7f7;
+  background-color: white;
   height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
