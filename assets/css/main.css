@@ -5,7 +5,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Gill Sans";
+  font-family: "Gill Sans", sans-serif;
 }
 
 html {
