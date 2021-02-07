@@ -29,12 +29,12 @@ a {
 }
 
 .subscribe-container h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
 .subscribe-container p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
@@ -51,11 +51,12 @@ a {
 
 .subscribe-container #sub-form .form-group label {
   margin: 0 2rem;
+  font-size: 1.5rem;
 }
 
 .subscribe-container #sub-form .form-group input {
-  padding: 1rem 3rem;
-  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
 }
 
 .subscribe-container #sub-form .form-group input:focus {
@@ -169,7 +170,7 @@ a {
 
 #header .welcome-container .lead {
   color: #393e46 !important;
-  font-size: 2rem;
+  font-size: 1.3rem;
   padding: 2rem 0;
   letter-spacing: 0.2px;
 }

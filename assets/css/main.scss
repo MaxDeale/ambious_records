@@ -34,12 +34,12 @@ a {
   color: white;
   padding: 3rem 0;
   h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: lighter;
   }
 
@@ -52,10 +52,11 @@ a {
     .form-group {
       label {
         margin: 0 2rem;
+        font-size: 1.5rem;
       }
       input {
-        padding: 1rem 3rem;
-        font-size: 2rem;
+        padding: 1rem 2rem;
+        font-size: 1rem;
       }
 
       input:focus {
@@ -154,7 +155,7 @@ a {
   .welcome-container {
     .lead {
       color: $dark-one !important;
-      font-size: 2rem;
+      font-size: 1.3rem;
       padding: 2rem 0;
       letter-spacing: 0.2px;
     }
