@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Gill Sans";
 }
 
@@ -44,8 +44,8 @@ a {
   display: flex;
   margin: 2rem auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 2rem;
 }
 
@@ -81,7 +81,7 @@ a {
   cursor: pointer;
   border-color: #393e46;
   -webkit-box-shadow: 5px 5px 4px;
-          box-shadow: 5px 5px 4px;
+  box-shadow: 5px 5px 4px;
   font-size: 1.2rem;
 }
 
@@ -140,10 +140,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #header #main-nav ul li {
@@ -163,7 +163,7 @@ a {
   color: #929aab;
   border-bottom: 2px solid #eeeeee;
   -webkit-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
-          box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
   border-bottom-style: dotted;
 }
 
@@ -181,8 +181,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-top: 2px solid #929aab;
 }
 
@@ -209,8 +209,8 @@ a {
   #sub-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   #sub-form .form-group {
     display: -webkit-box;
@@ -218,8 +218,8 @@ a {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   #sub-button {
     padding: 1rem;
@@ -249,8 +249,8 @@ a {
 #releases .releases-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  -ms-grid-columns: (minmax(400px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 #releases .releases-container .release-item {
@@ -286,8 +286,8 @@ a {
   width: 70%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  -ms-grid-columns: (minmax(350px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 #artists .artists-container .artist-item {
@@ -311,7 +311,7 @@ a {
 #artists .artists-container .artist-item img:hover {
   opacity: 0.8;
   -webkit-transform: scale(0.99);
-          transform: scale(0.99);
+  transform: scale(0.99);
 }
 
 #demo-submission {
@@ -338,8 +338,8 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-bottom: 1.5rem;
 }
 
@@ -380,7 +380,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #main-footer .final-links ul li {
@@ -412,14 +412,14 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #393e46;
 }
 
