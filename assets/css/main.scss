@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("http://fonts.cdnfonts.com/css/gill-sans");
 
 $grey-one: #929aab;
 $light-one: #eeeeee;
@@ -9,6 +10,7 @@ $dark-one: #393e46;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans";
 }
 
 html {
@@ -27,6 +29,62 @@ a {
 
 // HEADER
 
+.subscribe-container {
+  background-color: black;
+
+  color: white;
+  padding: 3rem 0;
+  h4 {
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+
+  #sub-form {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+
+    font-size: 2rem;
+    .form-group {
+      label {
+        margin: 0 2rem;
+      }
+      input {
+        padding: 1rem 3rem;
+        font-size: 2rem;
+      }
+
+      input:focus {
+        outline: none;
+      }
+    }
+    button {
+      background-color: $dark-one;
+      margin: 0 1rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      width: 120px;
+      border: 1px solid white;
+      font-weight: lighter;
+      color: white;
+      transition: all 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    }
+    button:hover {
+      background-color: $light-one;
+      color: $dark-one;
+      cursor: pointer;
+      border-color: $dark-one;
+      box-shadow: 5px 5px 4px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
 #header {
   h1 {
     font-size: 5rem;
@@ -40,7 +98,7 @@ a {
     margin-bottom: 5rem;
   }
   #logo-2 {
-    width: 800px;
+    width: 50%;
   }
 
   #down-button {
@@ -78,13 +136,15 @@ a {
         list-style: none;
         margin: 2rem 3.3rem;
         a {
-          font-size: 1.2rem;
-          border-bottom: 2px solid $light-one;
+          font-size: 1.4rem;
+          letter-spacing: 1px;
+          font-weight: lighter;
           transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
         }
         a:hover {
           color: $grey-one;
           // border-bottom-color: $grey-one;
+          border-bottom: 2px solid $light-one;
           box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
           border-bottom-style: dotted;
         }
@@ -95,8 +155,9 @@ a {
   .welcome-container {
     .lead {
       color: $dark-one !important;
-      font-size: 1.4rem;
+      font-size: 2rem;
       padding: 2rem 0;
+      letter-spacing: 0.2px;
     }
     .social-1 {
       margin: 1rem auto;
@@ -113,47 +174,7 @@ a {
         color: $grey-one;
       }
     }
-    .subscribe-container {
-      background-color: black;
 
-      padding: 3rem 0;
-      h4 {
-        font-size: 2rem;
-      }
-
-      #sub-form {
-        display: flex;
-        margin: 2rem auto;
-        justify-content: center;
-        .form-group {
-          label {
-            margin: 0 1rem;
-          }
-          input {
-            padding: 1rem;
-          }
-          input:focus {
-            outline: none;
-          }
-        }
-        button {
-          background-color: $dark-one;
-          margin: 0 1rem;
-          width: 120px;
-          border: 1px solid white;
-          color: white;
-          transition: all 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-        }
-        button:hover {
-          background-color: $light-one;
-          color: $dark-one;
-          cursor: pointer;
-          border-color: $dark-one;
-          box-shadow: 5px 5px 4px;
-          font-size: 1.2rem;
-        }
-      }
-    }
     p {
       font-size: 16px;
       color: $light-one !important;
@@ -277,16 +298,20 @@ a {
     flex-direction: column;
     padding-bottom: 1.5rem;
     #demo-form {
+      label {
+        font-size: 1.4rem;
+      }
       input {
         padding: 1rem 0;
         margin: 10px 0;
         width: 100%;
+        font-size: 1rem;
       }
       #demo-button {
         width: 100%;
         padding: 1rem 0;
         margin: 10px 0;
-        font-size: 1rem;
+        font-size: 1.4rem;
         transition: all 0.3s ease-in-out;
         &:hover {
           background-color: $dark-one;

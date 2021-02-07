@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("http://fonts.cdnfonts.com/css/gill-sans");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Gill Sans";
 }
 
 html {
@@ -19,6 +20,69 @@ body {
 a {
   text-decoration: none;
   color: #f7f7f7;
+}
+
+.subscribe-container {
+  background-color: black;
+  color: white;
+  padding: 3rem 0;
+}
+
+.subscribe-container h4 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.subscribe-container p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.subscribe-container #sub-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+.subscribe-container #sub-form .form-group label {
+  margin: 0 2rem;
+}
+
+.subscribe-container #sub-form .form-group input {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
+
+.subscribe-container #sub-form .form-group input:focus {
+  outline: none;
+}
+
+.subscribe-container #sub-form button {
+  background-color: #393e46;
+  margin: 0 1rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  width: 120px;
+  border: 1px solid white;
+  font-weight: lighter;
+  color: white;
+  -webkit-transition: all 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: all 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.subscribe-container #sub-form button:hover {
+  background-color: #eeeeee;
+  color: #393e46;
+  cursor: pointer;
+  border-color: #393e46;
+  -webkit-box-shadow: 5px 5px 4px;
+          box-shadow: 5px 5px 4px;
+  font-size: 1.2rem;
 }
 
 #header {
@@ -38,7 +102,7 @@ a {
 }
 
 #header #logo-2 {
-  width: 800px;
+  width: 50%;
 }
 
 #header #down-button {
@@ -88,14 +152,16 @@ a {
 }
 
 #header #main-nav ul li a {
-  font-size: 1.2rem;
-  border-bottom: 2px solid #eeeeee;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: lighter;
   -webkit-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 #header #main-nav ul li a:hover {
   color: #929aab;
+  border-bottom: 2px solid #eeeeee;
   -webkit-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
           box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
   border-bottom-style: dotted;
@@ -103,8 +169,9 @@ a {
 
 #header .welcome-container .lead {
   color: #393e46 !important;
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding: 2rem 0;
+  letter-spacing: 0.2px;
 }
 
 #header .welcome-container .social-1 {
@@ -128,57 +195,6 @@ a {
 
 #header .welcome-container .social-1 i:hover {
   color: #929aab;
-}
-
-#header .welcome-container .subscribe-container {
-  background-color: black;
-  padding: 3rem 0;
-}
-
-#header .welcome-container .subscribe-container h4 {
-  font-size: 2rem;
-}
-
-#header .welcome-container .subscribe-container #sub-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 2rem auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#header .welcome-container .subscribe-container #sub-form .form-group label {
-  margin: 0 1rem;
-}
-
-#header .welcome-container .subscribe-container #sub-form .form-group input {
-  padding: 1rem;
-}
-
-#header .welcome-container .subscribe-container #sub-form .form-group input:focus {
-  outline: none;
-}
-
-#header .welcome-container .subscribe-container #sub-form button {
-  background-color: #393e46;
-  margin: 0 1rem;
-  width: 120px;
-  border: 1px solid white;
-  color: white;
-  -webkit-transition: all 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-  transition: all 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-}
-
-#header .welcome-container .subscribe-container #sub-form button:hover {
-  background-color: #eeeeee;
-  color: #393e46;
-  cursor: pointer;
-  border-color: #393e46;
-  -webkit-box-shadow: 5px 5px 4px;
-          box-shadow: 5px 5px 4px;
-  font-size: 1.2rem;
 }
 
 #header .welcome-container p {
@@ -327,17 +343,22 @@ a {
   padding-bottom: 1.5rem;
 }
 
+#demo-submission .demo-container #demo-form label {
+  font-size: 1.4rem;
+}
+
 #demo-submission .demo-container #demo-form input {
   padding: 1rem 0;
   margin: 10px 0;
   width: 100%;
+  font-size: 1rem;
 }
 
 #demo-submission .demo-container #demo-form #demo-button {
   width: 100%;
   padding: 1rem 0;
   margin: 10px 0;
-  font-size: 1rem;
+  font-size: 1.4rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
