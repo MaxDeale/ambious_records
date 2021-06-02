@@ -109,14 +109,15 @@ a {
 #header #down-button {
   border-radius: 50%;
   margin: 1rem auto;
-  width: 50px;
+  color: rgba(0, 0, 0, 0.9);
   display: block;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 #header #down-button:hover {
-  width: 60px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #header .banner-art {
